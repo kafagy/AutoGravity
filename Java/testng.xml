@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/ibm/IdeaProjects/Selenium">
+        <classes>
+            <class name="test.CreateUser">
+                <methods>
+                    <include name="test_homepage"/>
+                    <include name="test_car"/>
+                    <include name="test_payments"/>
+                    <include name="test_dealership"/>
+                    <include name="test_create"/>
+                    <include name="test_residence"/>
+                    <include name="test_employment"/>
+                </methods>
+            </class>
+            <class name="test.ExistingUser">
+                <methods>
+                    <include name="test_homepage"/>
+                    <include name="test_login"/>
+                    <include name="test_car"/>
+                    <include name="test_payments"/>
+                    <include name="test_dealership"/>
+                    <include name="test_personal"/>
+                    <include name="test_residence"/>
+                    <include name="test_employment"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
